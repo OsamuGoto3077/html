@@ -19,7 +19,7 @@ public class Sample extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().append("Served at　三回目: ").append(request.getContextPath());
+		response.getWriter().append("Served at　四回目: ").append(request.getContextPath());
 	}
 
 }
